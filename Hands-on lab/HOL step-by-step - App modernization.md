@@ -208,7 +208,7 @@ In this task, you will migrate the Contoso Insurance database from on-premises (
 
 1.  On your Lab VM, open SSMS from the Start menu.
 
-2.  Connect to your local SQL Express instance, as you did previously, and expand the Databases node in the Object Explorer.
+2.  Connect to your local SQL Express instance, as you did previously, and expand the Databases node in the Object Explorer. Be sure to login to SQL Management Studio as: Username: sa, Password: P@ssword - this way you will be able to complete the below migration steps from local sql server instance to azure sql.
 
 3.  Right-click the Contoso Insurance database and select Tasks Deploy Database to Microsoft Azure SQL Database. 
 
