@@ -445,7 +445,7 @@ To make the Web API accessible to other applications added to Azure AD, you must
     ![An empty oauth2Permissions node is displayed from the manifest JSON document.](media/image71.png "Edit manifest")
 
 5.  You are going to add a new permission to this array. (Copy the text below and replace the id value):
-
+You can generate a new Guid by opening PowerShell and running the following command: [guid]::NewGuid()
     ```
     {
         "adminConsentDescription": "Allow read-write access to the Contoso Insurance Web API on behalf of the signed-in user",
