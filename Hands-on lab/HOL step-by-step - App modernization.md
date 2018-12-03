@@ -497,7 +497,7 @@ You can generate a new Guid by opening PowerShell and running the following comm
 
     ![The registered app Settings blade is displayed withh Redirect URLs selected, and the Redirect URL highlighted.](media/image75.png "Registered App Settings")
 
-4.  Close the Redirect URIs blade.
+4.  Close the Reply URIs blade.
 
 5.  Back on the Settings blade, select **Required Permissions**, then select **+Add**. 
 
@@ -547,7 +547,7 @@ You can generate a new Guid by opening PowerShell and running the following comm
 
     ![The registered app Settings blade is displayed withh Redirect URLs selected, and the Redirect URL highlighted.](media/image81.png "Registered App Settings")
 
-4.  Close the Redirect URIs blade.
+4.  Close the Reply URIs blade.
 
 5.  Back on the Settings blade, select **Required Permissions**, then select **+Add**. 
 
@@ -561,7 +561,7 @@ You can generate a new Guid by opening PowerShell and running the following comm
 
 8.  On the Enable Access blade, check "Read-write access to Contoso Insurance Web API" and select **Select**. ![Select permissions is selected, and Read-Write access is selected on the Enable Access blade.](media/image78.png "Add API access")
 
-9.  Select **Done** on the Add API access blade and close the Required permission blade.
+9.  Select **Done** on the Add API access blade and close the Required permission blade. Be sure to click on the GRANT PERMISSION button otherwise the perissions will not persist.
 
 10. Back in the Settings blade, select **Properties**, copy the **Application ID** value and paste it into a text editor for later reference. 
 
