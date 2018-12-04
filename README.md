@@ -1,7 +1,5 @@
 # App modernization
 
-[Download Cloud Workshop](https://github.com/Microsoft/MCW-App-modernization/archive/master.zip)
-
 Contoso, Ltd. is a new company providing a full range of long-term insurance services to help people who are underinsured. Struggling to cope with rapid growth, the company founders are looking for improved technological capabilities, including automated document forwarding from brokers, secure access for brokers to Contoso, Ltd., access to policy information, and ready policy retrieval for a dispersed workforce.
 
 Contoso Insurance also wants to make its policyholder system available to its employees and brokers via web and mobile applications without requiring VPN. Additionally, they want to store policies in cloud storage for retrieval via the web and mobile applications. Contoso would like to migrate its SQL Server-based database to SQL Database.
