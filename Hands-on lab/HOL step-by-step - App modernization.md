@@ -208,7 +208,9 @@ In this task, you will migrate the Contoso Insurance database from on-premises (
 
 1.  On your Lab VM, open SSMS from the Start menu.
 
-2.  Connect to your local SQL Express instance, as you did previously, and expand the Databases node in the Object Explorer. Be sure to login to SQL Management Studio as: Username: sa, Password: P@ssword - this way you will be able to complete the below migration steps from local sql server instance to azure sql.
+2.  Connect to your local SQL Express instance, as you did previously, and expand the Databases node in the Object Explorer. 
+
+**Be sure to login to SQL Management Studio as: Username: sa, Password: P@ssword - this way you will be able to complete the below migration steps from local sql server instance to azure sql.**
 
 3.  Right-click the Contoso Insurance database and select Tasks Deploy Database to Microsoft Azure SQL Database. 
 
@@ -1106,7 +1108,7 @@ The developers at Contoso Insurance have been working toward migrating their app
 
 In this task, you will add the application settings to the API App for the Web API in the Azure portal.
 
-1.  On your Lab VM, launch the sample app solution with Visual Studio 2017 Community edition by double-clicking the solution file at C:\\ContosoInsurance\\Hackathon\\Contoso.Apps.Insurance.Data\\Contoso.Apps.Insurance.Data.sln.
+1.  On your Lab VM, launch the sample app solution with Visual Studio 2017 Community edition by double-clicking the solution file at C:\\Hackathon\\Contoso.Apps.Insurance.Data\\Contoso.Apps.Insurance.Data.sln.
 
     ![The Contoso.Apps.Insurance.Data Visual Studio solution file is highlighted in the Windows Explorer dialog.](media/image139.png "File dialog")
 
@@ -1114,7 +1116,8 @@ In this task, you will add the application settings to the API App for the Web A
 
     ![Visual Studio 2017 is selected in the Visual Studio Version Selector dialog.](media/image140.png "Visual Stuido Version Selector")
 
-3.  Sign in to Visual Studio when prompted.
+3.  Sign in to Visual Studio when prompted. **Users should use the Azure Credentials given to them to login to Visual Studio.
+Users should always open the visual studio Run as administrator.**
 
 4.  On the Security Warning for PolicyConnectDataService dialog, uncheck **Ask me for every project in this solution**, then select **OK**. 
 
@@ -1193,6 +1196,11 @@ In this task, you will add the application settings to the API App for the Web A
 ### Task 2: Deploy the Web API app from Visual Studio
 
 In this task, you will use Visual Studio to deploy the Web API to your API App in Azure.
+
+Users should use the Azure Credentials given to them to login to Visual Studio.
+Users should always open the visual studio Run as administrator.
+
+Sourcecode for below is located at:
 
 1.  In Visual Studio, locate the **Contoso.Apps.Insurance.WebAPI** project in the **Web** folder in the **Solution Explorer**.
 
